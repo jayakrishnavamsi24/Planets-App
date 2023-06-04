@@ -1,0 +1,29 @@
+img {
+  width: 200px;
+  height: 130px;
+}
+
+.planet-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.planet-container > h1 {
+  font-size: 25px;
+  color: #f8fafc;
+}
+
+.planet-container > p {
+  color: #f1f5f9;
+  text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  img {
+    width: 400px;
+    height: 260px;
+  }
+}
